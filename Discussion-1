@@ -1,2 +1,31 @@
-Topics:
-===========
+  Topics:
+  ===========
+  IAC --- Infra : Chef, Puppet , Ansible , Cloudformation , Terraform
+
+  ==============
+  Devops Application :
+  Build Process (Stages.)
+  ======
+  Repository : Code (SCM ) : Source code management (.txt why not?) >> Histroy (GIT) 
+  clone >> update >> add >> push >> central location. >> stable/master.
+  Project : jave : compile >> code Review >> Build >> Test(unit case) >> build >> [jar, war ,ear ] >> 
+
+  build [jar, war,ear] >> Push Artifactory >> Deployment (jenkins) {Fetch artifact from artifactory >> env file >> deploy}
+  build [Images ] >> artifactory pushing >> Deployment >> Host Platform >> Orchestartion tools [Docker Swarm, Kubernetes, AWS Beanstalk, EKS, AKS, Rancher ]
+  Rancher : Orc management >> backend Kuberenets >> cattle orc engine >> SSL >> RBAC (docker-compose -- rancher-compose)
+  DockerFile and Docker-Compose
+
+
+  PC/Browser[www.google.com] >> ISP >> Internal DNS Servers >>  Root DNS Server >> TLD(Top Level Domain) >> .com >> Google Servers
+
+  Load Balancer(DMZ). 80/443 [haproxy/nginx/httpd] >> Mulesoft External gateway >> Frontend API Gateway >> Frontend Service >> Gmail Service >>
+  www.gogole.com/AUTH
+
+  service registry >> USER/Statement/Document/servicing/sso/AUTH
+
+  >> WebServer >> Application Server >> Database 
+
+  ===========================================
+
+
+
