@@ -1,2 +1,65 @@
 Infra Side:
-===
+========================
+Waterfall Model --> one item at a time 
+Monolithic Application --> Now Micorservices ()
+Watrefall --> Aglile(Developers) --> Devops 
+Devops set of practices
+++++++++++++++++++++++++++++
+[1] Planning Phase --> Issue Tracker, Project management [JIRA]--> task Assigned --> Servicenow : Change reuest (...RITM)... RITM >> CTASK >> TASK >> e-cab
+[2] Sorce Code Managemnet --> GIT. [Git and Git Repository(Bitbucket, github)] ---> Working Repo, Local Repo, Remote Repository
+[3] Code Review --> Sonarqube [Host , sonarunner] --> Profile , Rules, >80%
+##Comments
+public static void BankAccount
+{
+data setter
+data getter
+}
+[4] Build Management --> Maven (life cycle... mvn test)
+--> myprog.java >> .class[ByteCode] : platform indepedent/ windows / linux / mac>> .jar >> JDK,JVM
+C , C++ and Java 
+Swagger
+POM.xml
+[5] Unit Testing : Junit {Unit Test cases}.../src/java/tests
+[6] Packaging : Jar/war/ear
+[7] Artifactory Management: Artifacts/Images/globalstorekeys. : Nexus
+[8] Deploy : Test Servers, QA Servers
+[9] Testing : Selenium
+[10] Code Coverage : Jacoco
+[11] Release
+
+months / 10 minutes 
+===================================
+
+docker implementation :
+
+===================================
+docker installation and kubernetes inatallation
+-------------------------------------------------
+
+Docker installation : Local PC
+Kubernetes Installation :
+Login to Docker Hub
+
+===================================
+
+code >> image (golden image) >> 
+
+kubectl version --short
+sudo kubectl cluster-info
+docker version
+
+==========================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
