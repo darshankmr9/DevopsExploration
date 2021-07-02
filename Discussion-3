@@ -1,1 +1,59 @@
+docker installtion : HomeWork
++++++++++
+
+JIRA :
+Github Integration:
+=========
+
+JIRA : Ticket raised >> Assign >> commit JIRA
+
+Image : Blueprint : Recipe >> Container
+base image : OS(light weight)
+
+====
+apline : 
+java8 
++++++++
+Build Server : Softwares (java, dependency, sonarqube , fortify , jacoco)
+
+docker --rm 
+stage 1 (sonarrunner : image fetch >> parameter passed -Dsonar.url , Dsonar.Host ). 
+
+==============
+JIRA ...
+ 10  docker --version
+   11  docker container ps -a
+   12  systemctl start docker
+   13  docker container ps -a
+   14  docker images
+   15  docker run --help
+   16  clear
+   17  docker run hello-world
+   18  docker container ps
+   19  docker container ps -a
+   20  docker run --name my_container hello-world
+   21  docker ps -a
+   22  clear
+   23  docker run -it ubuntu bash
+   24  docker ps -a
+   25  docker images
+   26  docker prune images
+   27  docker prune image
+   31  docker image prune
+   32  docker images
+   33  docker system prune
+   34  docker images
+   35  docker ps-a
+   36  docker ps -a
+   37  docker rmi 9873176a8ff5 9873176a8ff5
+   38  clear
+   39  docker images
+   
+   docker inspect f4
+   
+   docker run --name my_jira --detach --publish 8083:8080 cptactionhank/atlassian-jira:latest
+   
+   docker pull cptactionhank/atlassian-jira
+   
+   
 
