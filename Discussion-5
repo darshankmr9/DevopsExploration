@@ -1,0 +1,88 @@
+Sonarqube : Static code analysis
+
+[Test cases ]
+
+Sonarqube : SonarServer : 
+Sonar Scannar --> work on src
+
+sonar-runner/bin/script src(pro)
+
+src --> project (IDE)
+
+_________________
+
+maven : Project build managemnet tool
+~/.m2
+centarl repository 
+gradle
+
+-------------------------
+Bamboo/jenkins/teamcity/travisCI : Integration Tool
+
+---------------
+
+
+Users --> Git -->    (Deploy) -->  Dependencies , Build , unit test, Deploy
+POM.xml 
+
+-------------------------
+Install Java --> Install Eclipse/VS Code --> maven code --> coordinates (GroupID(organizational level, Project ID, Version))
+--> Directory Structure --> maven goal --> Build 
+
+----------------------
+
+clean -->
+validate --> pom.xml (</>)---> syntax error 
+compile --> .java file -- .class file (any platform it will run)
+Test --> unit cases (src/main/java/tests)... @TEST. .java --> .class
+packagae --> jar/war/ear
+Verify --> system integration test cases
+install --> .jar/war file /target folder
+deploy --> Nexus / Jfrog 
+clean--> target folder will be deleted 
+
+-----------------
+code --> 
+ javac file.class
+ 
+ .jar 
+ .war
+ .ear
+
+Java platform independent :
+C and C++ are not platform independent.
+
+-----------------------------------------
+
+Homework : Maven exploration / Maven vs Gradle different ways..
+
+-----------------------------------------
+
+src : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
